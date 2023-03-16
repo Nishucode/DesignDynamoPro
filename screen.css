@@ -1,4 +1,4 @@
-
+/* 
 /* navbar */
 /* Styles for screens larger than 768px */
 @media only screen and (min-width: 768px) {
@@ -184,7 +184,7 @@
 /* Service section */
 /* Service section */
 #services{
-    display: flex;
+    display: grid;
     flex-direction: column;
     padding: 20px;
 }
@@ -208,8 +208,15 @@
 /* Styles for mobile screens */
 @media (max-width: 767px) {
     .service-box{
-        width: calc(70% - 10px);
+        width: 500px;
+        height: 200px;
         margin-bottom: 30px;
+        display: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
     }
 
     .heading0{
@@ -217,9 +224,6 @@
         margin: 20px 0px;
     }
 }
-
-
-
 
 
 /* Contact */
@@ -285,4 +289,4 @@ footer{
     }
 }
 
-  
+   */
