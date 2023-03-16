@@ -208,7 +208,7 @@
 /* Styles for mobile screens */
 @media (max-width: 767px) {
     .service-box{
-        width: 100%;
+        width: calc(70% - 10px);
         margin-bottom: 30px;
     }
 
