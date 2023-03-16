@@ -305,11 +305,10 @@ footer{
     color: #fff;
     text-align: center;
     padding: 20px;
-    font-size: 11px;
 }
   
 @media (max-width: 767px){
-    footer{
+    footer p{
       font-size: 12px;
     }
 }
