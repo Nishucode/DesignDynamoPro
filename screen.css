@@ -198,8 +198,8 @@
 .service-box{
     width: calc(100% - 20px);
     margin: 10px;
-    padding: 20px;
-    text-align: center;
+    padding: 10px;
+    text-align: justify;
     border: 1px solid black;
     border-radius: 15px;
     background: linear-gradient(to top, rgb(0, 225, 255) 50%, white 50%);
@@ -230,13 +230,20 @@
 
 .service-box p{
     margin-top: 1rem;
-    font-size: 1rem;
+    font-size: 8px;
     text-align: center;
 }
 
 @media screen and (min-width: 768px) {
     .service-box{
-        width: calc(33.33% - 10px);
+        width: 100%;
+        padding: 30px 20px;
+    }
+    .heading0{
+        font-family: century;
+        font-size: 11px;
+        text-align: center;
+        margin: 20px 0px;
     }
 }
 
